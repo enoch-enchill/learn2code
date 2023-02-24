@@ -1,0 +1,446 @@
+/* =================================================================================
+Text selection
+================================================================================= */
+
+::-moz-selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    color: white;
+    background: #009788;
+}
+
+::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    color: white;
+    background: #009788;
+}
+
+
+/* =================================================================================
+Prepage Loader
+================================================================================= */
+
+#pre-page-loader-center-absolute .object,
+.btn.default,
+.btn-large.default,
+.support-icon .material-icons {
+    background-color: #1eb7a8;
+}
+
+
+/* =================================================================================
+Scroll bottom to Top
+================================================================================= */
+
+#scroll-top .large.material-icons {
+    background: #1eb7a8;
+    color: #fff;
+}
+
+
+/* =================================================================================
+Navbar Logo
+================================================================================= */
+
+@media(min-width:993px) {
+    #me-navbar #logo-container {
+        background: #009788;
+        color: #eeeeee;
+    }
+}
+
+@media(max-width:992px) {
+    #me-navbar #logo-container {
+        background: transparent;
+        color: #009788;
+    }
+}
+
+
+/* =================================================================================
+Common class
+================================================================================= */
+
+.default {
+    background: #009788 !important;
+    color: #eeeeee !important
+}
+
+.bg-default {
+    background: #009788 !important
+}
+
+.text-default,
+.update-plan-list ul li:before,
+.update-plan-price .update-plan-value,
+p>a,
+p>a:hover {
+    color: #009788 !important
+}
+
+
+/* =================================================================================
+Tooltip background color
+================================================================================= */
+
+.backdrop {
+    background-color: #009788;
+}
+
+
+/* =================================================================================
+Dropdown text color
+================================================================================= */
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #009788;
+}
+
+
+/* =================================================================================
+Tabs text color and background color
+================================================================================= */
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #000;
+}
+
+.tabs .tab a {
+    color: #7c7878;
+}
+
+.tabs {
+    background: #d6d4d4
+}
+
+.tabs .indicator {
+    background-color: #009788;
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+    color: #009788;
+    cursor: default;
+}
+
+.tab-body-default {
+    background: #e0e0e0;
+    color: #333;
+}
+
+
+/* =================================================================================
+Breadcrumb color
+================================================================================= */
+
+.breadcrumb:before {
+    color: #83c5bf;
+}
+
+.breadcrumb {
+    color: #009788
+}
+
+.breadcrumb:last-child {
+    color: #000;
+}
+
+
+/* =================================================================================
+Collections
+================================================================================= */
+
+.collection .collection-item.active {
+    background-color: #009788;
+    color: #eeeeee;
+}
+
+.collection a.collection-item {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.secondary-content {
+    color: #009788;
+}
+
+
+/* =================================================================================
+Pagination
+================================================================================= */
+
+.pagination li.active {
+    background-color: #009788;
+}
+
+
+/* =================================================================================
+Progress bar
+================================================================================= */
+
+.progress .determinate,
+.progress .indeterminate {
+    background-color: #009788;
+}
+
+.progress {
+    background: #a0e8e2;
+}
+
+
+/* =================================================================================
+Default wave
+================================================================================= */
+
+.waves-effect.waves-default .waves-ripple {
+    background-color: #009788;
+}
+
+
+/* =================================================================================
+Blockquote
+================================================================================= */
+
+blockquote {
+    border-left: 5px solid #009788;
+}
+
+
+/* =================================================================================
+Custom Shadow
+================================================================================= */
+
+.shadow-demo {
+    background-color: #009788;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    color: #eae5e5;
+    text-align: center;
+}
+
+
+/* =================================================================================
+owl carousel
+================================================================================= */
+
+#owl-demo-box .owl-carousel .item {
+    background: #009788;
+    color: #e9e9e9;
+}
+
+
+/* =================================================================================
+Form element
+================================================================================= */
+
+.default[type="radio"]:checked+label:after,
+[type="radio"].with-gap.default:checked+label:after,
+[type="checkbox"].filled-in.default:checked+label:after {
+    border: 2px solid #009788 !important;
+    background-color: #009788 !important;
+}
+
+[type="radio"].with-gap.default:checked+label:before {
+    border: 2px solid #009788;
+}
+
+[type="checkbox"].default:checked+label:before {
+    border-right: 2px solid #009788;
+    border-bottom: 2px solid #009788;
+}
+
+.switch label input[type=checkbox].default:checked+.lever,
+.switch label input[type=checkbox].default:checked+.lever:after {
+    background-color: #009788;
+}
+
+
+/* label color */
+
+
+/* label focus color */
+
+.input-field input:not([type])+focus+label,
+.input-field input[type=text]:focus+label,
+.input-field input[type=password]:focus+label,
+.input-field input[type=email]:focus+label,
+.input-field input[type=url]:focus+label,
+.input-field input[type=time]:focus+label,
+.input-field input[type=date]:focus+label,
+.input-field input[type=datetime]:focus+label,
+.input-field input[type=datetime-local]:focus+label,
+.input-field input[type=tel]:focus+label,
+.input-field input[type=number]:focus+label,
+.input-field input[type=search]:focus+label,
+.input-field textarea.materialize-textarea:focus+label {
+    color: #009788;
+}
+
+
+/* label underline focus color */
+
+.input-field input:not([type])+focus,
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=url]:focus,
+.input-field input[type=time]:focus,
+.input-field input[type=date]:focus,
+.input-field input[type=datetime]:focus,
+.input-field input[type=datetime-local]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=number]:focus,
+.input-field input[type=search]:focus,
+.input-field textarea.materialize-textarea:focus,
+input:not([type])+focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=time]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+textarea.materialize-textarea:focus {
+    border-bottom: 1px solid #009788;
+    box-shadow: 0 1px 0 0 #009788;
+}
+
+.input-field input.box-style:not([type])+focus,
+.input-field input[type=text].box-style:focus,
+.input-field input[type=password].box-style:focus,
+.input-field input[type=email].box-style:focus,
+.input-field input[type=url].box-style:focus,
+.input-field input[type=time].box-style:focus,
+.input-field input[type=date].box-style:focus,
+.input-field input[type=datetime].box-style:focus,
+.input-field input[type=datetime-local].box-style:focus,
+.input-field input[type=tel].box-style:focus,
+.input-field input[type=number].box-style:focus,
+.input-field input[type=search].box-style:focus,
+.input-field textarea.materialize-textarea.box-style:focus,
+input.box-style:not([type])+focus,
+input[type=text].box-style:focus,
+input[type=password].box-style:focus,
+input[type=email].box-style:focus,
+input[type=url].box-style:focus,
+input[type=time].box-style:focus,
+input[type=date].box-style:focus,
+input[type=datetime].box-style:focus,
+input[type=datetime-local].box-style:focus,
+input[type=tel].box-style:focus,
+input[type=number].box-style:focus,
+input[type=search].box-style:focus,
+textarea.materialize-textarea.box-style:focus {
+    border: 1px solid #009788;
+    box-shadow: 0 0 1px #009788;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #009788 !important;
+}
+
+
+/*html range slider*/
+
+input[type=range]+.thumb,
+input[type=range]::-webkit-slider-thumb,
+.col.grid-example {
+    background-color: #009788;
+}
+
+.input-field .prefix {
+    color: #888080 !important;
+}
+
+
+/* =================================================================================
+Data Table
+================================================================================= */
+
+.dataTables_filter input[type=search]:focus {
+    border-bottom: 1px solid #009788;
+    box-shadow: 0 1px 0 0 #009788;
+}
+
+.dataTables_paginate .paginate_button {
+    height: 30px;
+    line-height: 10px;
+    font-size: 1.2rem;
+    border: 1px solid transparent !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #009788 !important;
+    color: #eeeeee !important;
+    border: 1px solid #009788;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate a.paginate_button:focus,
+.dataTables_wrapper .dataTables_paginate a.paginate_button:active {
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    color: #000 !important;
+    height: 30px;
+    line-height: 10px;
+    font-size: 1.2rem;
+    box-shadow: none !important;
+    outline: none
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:focus,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:active {
+    background: #009788 !important;
+    color: #eeeeee !important;
+    border: 1px solid #009788;
+    height: 30px;
+    line-height: 10px;
+    font-size: 1.2rem;
+    box-shadow: none !important;
+    outline: none
+}
+
+
+/* =================================================================================
+Error Page
+================================================================================= */
+
+#error-banner .error-code {
+    color: #009788 !important;
+}
+
+#error-banner .common-Link {
+    color: #009788
+}
+
+#error-banner .common-body-text {
+    color: #6b7c93;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+
+/* =================================================================================
+Update price plan modal
+================================================================================= */
+
+.update-plan-title {
+    background: #009788;
+    color: #fff;
+}

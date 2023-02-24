@@ -1,0 +1,221 @@
+/* =================================================================================
+Selection Test
+================================================================================= */
+
+::-moz-selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    color: white;
+    background: #1eb7a8;
+}
+
+::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    color: white;
+    background: #1eb7a8;
+}
+
+
+/* =================================================================================
+Pre page Loader
+================================================================================= */
+
+#pre-page-loader-center-absolute .object,
+.btn.default,
+.btn-large.default,
+.support-icon .material-icons {
+    background-color: #1eb7a8;
+}
+
+
+/* =================================================================================
+Scroll bottom to Top
+================================================================================= */
+
+#scroll-top .large.material-icons {
+    background: #1eb7a8;
+    color: #fff;
+}
+
+
+/* =================================================================================
+Navbar
+================================================================================= */
+
+nav .nav-wrapper .nav-login {
+    border: 2px solid #1eb7a8;
+}
+
+nav .nav-wrapper .nav-login:hover {
+    background: #1eb7a8;
+    color: #fff !important;
+}
+
+.feature-icon .material-icons,
+#testimonial-banner .h3-feedback,
+#pricing-banner .pricing-header .plan-value,
+#pricing-banner .pricing-body ul li:before,
+.card.faq-card .card-content .card-title i,
+.extra-info-link a,
+#error-banner a,
+#error-banner h1.header .error-code {
+    color: #1eb7a8 !important;
+}
+
+#logo-container,
+#brand-banner .brand {
+    color: #009788 !important;
+}
+
+nav .nav-wrapper #nav-mobile .mobile-home {
+    background: #009788;
+    color: #fff !important;
+}
+
+.news-link {
+    text-decoration: underline;
+    color: #1eb7a8;
+}
+
+#free-trial-btn {
+    background: #1eb7a8;
+    color: #fff;
+}
+
+.text-default {
+    color: #1eb7a8;
+}
+
+.default {
+    background: #1eb7a8
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #009788;
+}
+
+
+/* =================================================================================
+Form Element
+================================================================================= */
+
+.default[type="radio"]:checked+label:after,
+[type="radio"].with-gap.default:checked+label:after,
+[type="checkbox"].filled-in.default:checked+label:after {
+    border: 2px solid #1eb7a8 !important;
+    background-color: #1eb7a8 !important;
+}
+
+[type="radio"].with-gap.default:checked+label:before {
+    border: 2px solid #1eb7a8;
+}
+
+[type="checkbox"].default:checked+label:before {
+    border-right: 2px solid #1eb7a8;
+    border-bottom: 2px solid #1eb7a8;
+}
+
+[type="checkbox"].filled-in.default:checked+label:before {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.switch label input[type=checkbox].default:checked+.lever,
+.switch label input[type=checkbox].default:checked+.lever:after {
+    background-color: #1eb7a8;
+}
+
+
+/* label focus color */
+
+.input-field input:not([type])+focus+label,
+.input-field input[type=text]:focus+label,
+.input-field input[type=password]:focus+label,
+.input-field input[type=email]:focus+label,
+.input-field input[type=url]:focus+label,
+.input-field input[type=time]:focus+label,
+.input-field input[type=date]:focus+label,
+.input-field input[type=datetime]:focus+label,
+.input-field input[type=datetime-local]:focus+label,
+.input-field input[type=tel]:focus+label,
+.input-field input[type=number]:focus+label,
+.input-field input[type=search]:focus+label,
+.input-field textarea.materialize-textarea:focus+label {
+    color: #1eb7a8;
+}
+
+
+/* label underline focus color */
+
+.input-field input:not([type])+focus,
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=url]:focus,
+.input-field input[type=time]:focus,
+.input-field input[type=date]:focus,
+.input-field input[type=datetime]:focus,
+.input-field input[type=datetime-local]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=number]:focus,
+.input-field input[type=search]:focus,
+.input-field textarea.materialize-textarea:focus,
+input:not([type])+focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=time]:focus,
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+textarea.materialize-textarea:focus {
+    border-bottom: 1px solid #1eb7a8;
+    box-shadow: 0 1px 0 0 #1eb7a8;
+}
+
+.input-field input.box-style:not([type])+focus,
+.input-field input[type=text].box-style:focus,
+.input-field input[type=password].box-style:focus,
+.input-field input[type=email].box-style:focus,
+.input-field input[type=url].box-style:focus,
+.input-field input[type=time].box-style:focus,
+.input-field input[type=date].box-style:focus,
+.input-field input[type=datetime].box-style:focus,
+.input-field input[type=datetime-local].box-style:focus,
+.input-field input[type=tel].box-style:focus,
+.input-field input[type=number].box-style:focus,
+.input-field input[type=search].box-style:focus,
+.input-field textarea.materialize-textarea.box-style:focus,
+input.box-style:not([type])+focus,
+input[type=text].box-style:focus,
+input[type=password].box-style:focus,
+input[type=email].box-style:focus,
+input[type=url].box-style:focus,
+input[type=time].box-style:focus,
+input[type=date].box-style:focus,
+input[type=datetime].box-style:focus,
+input[type=datetime-local].box-style:focus,
+input[type=tel].box-style:focus,
+input[type=number].box-style:focus,
+input[type=search].box-style:focus,
+textarea.materialize-textarea.box-style:focus {
+    border: 1px solid #1eb7a8;
+    box-shadow: 0 0 1px #1eb7a8;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #1eb7a8 !important;
+}

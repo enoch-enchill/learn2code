@@ -1,0 +1,38 @@
+.text-error {
+    color: #c72a34 !important;
+}
+.text-info {
+    color: #1c68af !important;
+}
+.text-success {
+    color: #009788 !important;
+}
+.float-right {
+    position: absolute; display: inline-block; right: 24px;
+}
+.brand-logo {
+    margin: 5px auto;
+    display: block;
+    width: 140px;
+}
+.text-title {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.text-caption {
+    font-size: 16px;
+    background-color: #c6f5f0;
+    border: #009788 solid 1px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.text-description {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: #009788 1px solid;
+}
+.mb-3 {
+    margin-bottom: 1em;
+}

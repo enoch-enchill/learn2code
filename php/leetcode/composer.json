@@ -1,0 +1,21 @@
+{
+  "name": "javadev/leetcode_in_php",
+  "description": "PHP solutions for leet code problems",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Javadev\\LeetCodePhp\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "javadev",
+      "homepage": "https://github.com/php4dev/LeetCode-in-Php"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
