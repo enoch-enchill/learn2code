@@ -5,7 +5,7 @@ class ContentsController
     public static function index(){
         $contents = ContentsRepository::getAll();
         
-        // Result Data        
+        // Result Data
         $data = [
             "error" => 1,
             "body" => "No contents found."
@@ -22,7 +22,7 @@ class ContentsController
     public static function active(){
         $contents = ContentsRepository::getActive();
         
-        // Result Data        
+        // Result Data
         $data = [
             "error" => 1,
             "body" => "No contents found."
@@ -39,7 +39,7 @@ class ContentsController
     public static function find($id){
         $content = (object)ContentsRepository::find($id);
 
-        // Result Data        
+        // Result Data
         $data = [
             "error" => 1,
             "body" => "Operation failed."
@@ -50,7 +50,7 @@ class ContentsController
                 "body" => $content
             ];
         }
-        echo json_encode($data);         
+        echo json_encode($data);
     }
 
     public static function create(){
@@ -83,10 +83,10 @@ class ContentsController
                 "body" => $content
             ];
         }
-        echo json_encode($data);        
+        echo json_encode($data);
     }
 
-    public static function update($id){        
+    public static function update($id){
         // POST Data
         $content_data = (object)[
             "menu_id" => $_POST['menu_id'],
@@ -103,7 +103,7 @@ class ContentsController
         ];
         $content = (object)ContentsRepository::update($id, $content_data);
 
-        // Result Data        
+        // Result Data
         $data = [
             "error" => 1,
             "body" => "Operation failed."

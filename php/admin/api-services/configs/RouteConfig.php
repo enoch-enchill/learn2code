@@ -7,7 +7,7 @@ class RouteConfig{
     private static $methodNotAllowed = null;
   
     public static function add($expression, $function, $method = 'get'){
-      array_push(self::$routes,Array(
+      array_push(self::$routes, Array(
         'expression' => $expression,
         'function' => $function,
         'method' => $method
@@ -45,7 +45,7 @@ class RouteConfig{
         // If the method matches check the path
   
         // Add basepath to matching string
-        if($basepath!=''&&$basepath!='/'){
+        if($basepath !='' && $basepath != '/'){
           $route['expression'] = '('.$basepath.')'.$route['expression'];
         }
   
